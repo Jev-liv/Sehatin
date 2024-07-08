@@ -1,0 +1,185 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin: 0;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.user-actions {
+    display: flex;
+    align-items: center;
+}
+
+.user-actions a {
+    margin-left: 10px;
+}
+
+.user-actions a img {
+    width: 24px;
+    height: 24px;
+}
+
+.detail-doctor {
+    width: 100%;
+}
+
+.doctor-details {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.doctor-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.doctor-image {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.doctor-profile {
+    max-width: 600px;
+}
+
+.doctor-profile h2 {
+    margin: 0 0 10px;
+}
+
+.doctor-profile p {
+    margin: 0 0 10px;
+}
+
+.doctor-profile .price {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.doctor-profile .price span {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.doctor-profile .btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.education {
+    margin-bottom: 20px;
+}
+
+.education h3 {
+    margin-bottom: 10px;
+}
+
+.education ul {
+    list-style: none;
+    padding: 0;
+}
+
+.education ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.education ul li img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.similar-doctors {
+    margin-top: 20px;
+}
+
+.similar-doctors h3 {
+    margin-bottom: 20px;
+}
+
+.doctors-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns layout */
+    gap: 20px;
+}
+
+.doctor-card {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.doctor-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.doctor-card h4 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.doctor-card p {
+    margin: 0 0 10px;
+}
+
+.btn-show-more {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+}
